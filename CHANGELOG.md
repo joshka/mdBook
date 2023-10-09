@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## [3.0.0](https://github.com/catppuccin/mdBook/compare/v2.0.1...v3.0.0) (2023-10-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* support mdbook version `0.4.35`
+
+### Features
+
+* **cli:** add "--force" flag to install command ([28f9d0f](https://github.com/catppuccin/mdBook/commit/28f9d0f02aea41c7278659fb22ba9db5bbf02b5d))
+* **cli:** detect differences in major version ([8956c61](https://github.com/catppuccin/mdBook/commit/8956c61a727b0408be202c9c7fc6c2f336166272))
+* darken struckout text ([5388763](https://github.com/catppuccin/mdBook/commit/5388763d108a72e1f0bd99656d7c88439fe9243a))
+* support mdbook version `0.4.35` ([55e8722](https://github.com/catppuccin/mdBook/commit/55e872267de2c63e91659c6be5eac1be4fc34540))
+* switch to clap v4 ([a1ddb9a](https://github.com/catppuccin/mdBook/commit/a1ddb9a11b6a5e83b75dbfeebe776ad7658ac9eb))
+
+
+### Bug Fixes
+
+* **admonish:** prefix `admonish-` to class names ([#76](https://github.com/catppuccin/mdBook/issues/76)) ([ba711b6](https://github.com/catppuccin/mdBook/commit/ba711b6ceb67f9d4e352cafc4a11d8a28d0b4980))
+* clap typecasting panic ([1193c91](https://github.com/catppuccin/mdBook/commit/1193c91b092da7f7496fb78431045733814789f0))
+* colours in `diff` codeblock ([#67](https://github.com/catppuccin/mdBook/issues/67)) ([a3b3f77](https://github.com/catppuccin/mdBook/commit/a3b3f7726c85cc815279f62fbd096d7249429866))
+
 ## [2.0.1](https://github.com/catppuccin/mdBook/compare/v2.0.0...v2.0.1) (2023-10-09)
 
 
